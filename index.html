@@ -12,17 +12,76 @@
 </head>
 <body>
 
-  <!-- Ambient Background Glow Gradients -->
-  <div class="glow-orb orb-1" aria-hidden="true"></div>
-  <div class="glow-orb orb-2" aria-hidden="true"></div>
-  <div class="glow-orb orb-3" aria-hidden="true"></div>
-  <div class="noise-overlay" aria-hidden="true"></div>
+  <!-- ======================================================================
+       3D ANIMATED BACKGROUND SCENE (Pure CSS 3D Perspective & Motion)
+       ====================================================================== -->
+  <div class="scene-3d-bg" aria-hidden="true">
+    <!-- Perspective 3D Moving Cyber Grid Floor -->
+    <div class="cyber-grid-floor"></div>
+    <div class="cyber-grid-ceiling"></div>
+
+    <!-- Floating 3D Geometric Polyhedra / Cubes in Background -->
+    <div class="floating-3d-cube cube-bg-1">
+      <div class="cube-mini">
+        <div class="c-face c-front"></div>
+        <div class="c-face c-back"></div>
+        <div class="c-face c-right"></div>
+        <div class="c-face c-left"></div>
+        <div class="c-face c-top"></div>
+        <div class="c-face c-bottom"></div>
+      </div>
+    </div>
+
+    <div class="floating-3d-cube cube-bg-2">
+      <div class="cube-mini alt-colors">
+        <div class="c-face c-front"></div>
+        <div class="c-face c-back"></div>
+        <div class="c-face c-right"></div>
+        <div class="c-face c-left"></div>
+        <div class="c-face c-top"></div>
+        <div class="c-face c-bottom"></div>
+      </div>
+    </div>
+
+    <div class="floating-3d-cube cube-bg-3">
+      <div class="cube-mini">
+        <div class="c-face c-front"></div>
+        <div class="c-face c-back"></div>
+        <div class="c-face c-right"></div>
+        <div class="c-face c-left"></div>
+        <div class="c-face c-top"></div>
+        <div class="c-face c-bottom"></div>
+      </div>
+    </div>
+
+    <!-- 3D Gyroscope Orbital Hologram Rings in Background -->
+    <div class="hologram-gyro-bg">
+      <div class="gyro-ring ring-x"></div>
+      <div class="gyro-ring ring-y"></div>
+      <div class="gyro-ring ring-z"></div>
+    </div>
+
+    <!-- Shooting Meteor Laser Beams -->
+    <div class="meteor meteor-1"></div>
+    <div class="meteor meteor-2"></div>
+    <div class="meteor meteor-3"></div>
+    <div class="meteor meteor-4"></div>
+
+    <!-- Ambient Glowing Plasma Orbs -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+    <div class="noise-overlay"></div>
+  </div>
 
   <!-- Navigation Bar -->
   <header class="navbar-wrapper">
     <nav class="navbar container">
       <a href="#home" class="logo">
-        <span class="logo-badge">RY</span>
+        <span class="logo-badge">
+          <span class="badge-inner-glow"></span>
+          RY
+        </span>
         <span class="logo-text">Ritik<span class="highlight">.</span>Yadav</span>
       </a>
 
@@ -53,13 +112,13 @@
       <div class="container hero-container">
         
         <div class="hero-content">
-          <div class="status-badge">
+          <div class="status-badge animated-badge">
             <span class="status-pulse"></span>
             <span>B.Tech CSE (AI) · Open to Innovation &amp; Startups</span>
           </div>
 
           <h1 class="hero-title">
-            Architecting <span class="gradient-text">AI Solutions</span> &amp; Building the <span class="gradient-text-alt">Future</span>.
+            Architecting <span class="gradient-text crazy-glow-text">AI Solutions</span> &amp; Building the <span class="gradient-text-alt crazy-glow-text">Future</span>.
           </h1>
 
           <p class="hero-subtitle">
@@ -67,8 +126,8 @@
           </p>
 
           <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">
-              <span>View Featured Projects</span>
+            <a href="#projects" class="btn btn-primary btn-glow-sweep">
+              <span class="btn-text">View Featured Projects</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
             </a>
             <a href="#about" class="btn btn-glass">
@@ -78,35 +137,69 @@
 
           <div class="hero-metrics">
             <div class="metric-item">
-              <span class="metric-value">CSE (AI)</span>
+              <span class="metric-value counter-shimmer">CSE (AI)</span>
               <span class="metric-label">Specialization</span>
             </div>
             <div class="metric-divider"></div>
             <div class="metric-item">
-              <span class="metric-value">3+</span>
+              <span class="metric-value counter-shimmer">3+</span>
               <span class="metric-label">Innovation Concepts</span>
             </div>
             <div class="metric-divider"></div>
             <div class="metric-item">
-              <span class="metric-value">Tech + Biz</span>
+              <span class="metric-value counter-shimmer">Tech + Biz</span>
               <span class="metric-label">Dual Mindset</span>
             </div>
           </div>
         </div>
 
+        <!-- Hero 3D Interactive Visual Stage -->
         <div class="hero-visual">
           <div class="visual-card-wrapper">
-            <div class="avatar-ring-outer"></div>
-            <div class="avatar-ring-inner"></div>
+            
+            <!-- 3D Revolving Holographic Centerpiece -->
+            <div class="cube-3d-scene" title="Interactive 3D AI Tech Core">
+              <div class="cube-3d">
+                <div class="cube-face cube-front">
+                  <span class="cube-icon">🧠</span>
+                  <span class="cube-caption">AI / ML</span>
+                </div>
+                <div class="cube-face cube-back">
+                  <span class="cube-icon">🚀</span>
+                  <span class="cube-caption">STARTUP</span>
+                </div>
+                <div class="cube-face cube-right">
+                  <span class="cube-icon">⚡</span>
+                  <span class="cube-caption">PYTHON</span>
+                </div>
+                <div class="cube-face cube-left">
+                  <span class="cube-icon">🌐</span>
+                  <span class="cube-caption">WEB 3.0</span>
+                </div>
+                <div class="cube-face cube-top">
+                  <span class="cube-icon">👁️</span>
+                  <span class="cube-caption">VISION</span>
+                </div>
+                <div class="cube-face cube-bottom">
+                  <span class="cube-icon">💡</span>
+                  <span class="cube-caption">INVENT</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Profile Info Shield with Glassmorphic 3D Layer -->
             <div class="visual-card">
               <div class="avatar-box">
                 <span class="avatar-initials">RY</span>
+                <div class="avatar-pulsar"></div>
               </div>
               <div class="card-caption">
                 <div class="badge-tag">Future Founder</div>
                 <h3>Ritik Yadav</h3>
                 <p>AI Engineer · Tech Explorer · Builder</p>
               </div>
+              
+              <!-- Floating 3D Badges with Bobbing Physics -->
               <div class="floating-badge badge-top">
                 <span class="badge-icon">⚡</span>
                 <div>
@@ -122,11 +215,55 @@
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
 
       </div>
     </section>
+
+    <!-- ======================================================================
+         CRAZY INFINITE TECH MARQUEE (Pure CSS Infinite Loop)
+         ====================================================================== -->
+    <div class="marquee-strip-wrapper" aria-hidden="true">
+      <div class="marquee-strip">
+        <div class="marquee-track">
+          <span>⚡ ARTIFICIAL INTELLIGENCE</span>
+          <span class="marquee-sep">✦</span>
+          <span>🚀 TECH ENTREPRENEURSHIP</span>
+          <span class="marquee-sep">✦</span>
+          <span>🧠 MACHINE LEARNING</span>
+          <span class="marquee-sep">✦</span>
+          <span>🐍 PYTHON PROGRAMMING</span>
+          <span class="marquee-sep">✦</span>
+          <span>👁️ COMPUTER VISION</span>
+          <span class="marquee-sep">✦</span>
+          <span>🌐 FULL STACK DEVELOPMENT</span>
+          <span class="marquee-sep">✦</span>
+          <span>💡 STARTUP RESEARCH &amp; STRATEGY</span>
+          <span class="marquee-sep">✦</span>
+          <span>🔮 ANTIGRAVITY IDE</span>
+          <span class="marquee-sep">✦</span>
+          <!-- Duplicate set for seamless continuous loop -->
+          <span>⚡ ARTIFICIAL INTELLIGENCE</span>
+          <span class="marquee-sep">✦</span>
+          <span>🚀 TECH ENTREPRENEURSHIP</span>
+          <span class="marquee-sep">✦</span>
+          <span>🧠 MACHINE LEARNING</span>
+          <span class="marquee-sep">✦</span>
+          <span>🐍 PYTHON PROGRAMMING</span>
+          <span class="marquee-sep">✦</span>
+          <span>👁️ COMPUTER VISION</span>
+          <span class="marquee-sep">✦</span>
+          <span>🌐 FULL STACK DEVELOPMENT</span>
+          <span class="marquee-sep">✦</span>
+          <span>💡 STARTUP RESEARCH &amp; STRATEGY</span>
+          <span class="marquee-sep">✦</span>
+          <span>🔮 ANTIGRAVITY IDE</span>
+          <span class="marquee-sep">✦</span>
+        </div>
+      </div>
+    </div>
 
     <!-- About Section -->
     <section id="about" class="about-section section-padding">
@@ -138,7 +275,8 @@
         </div>
 
         <div class="about-grid">
-          <div class="about-card main-bio-card">
+          <div class="about-card main-bio-card card-3d-hover">
+            <div class="card-beam-glow"></div>
             <div class="bio-icon-badge">
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
             </div>
@@ -155,7 +293,7 @@
           </div>
 
           <div class="about-pillars">
-            <div class="pillar-card">
+            <div class="pillar-card card-3d-hover">
               <div class="pillar-number">01</div>
               <div class="pillar-content">
                 <h4>AI &amp; Deep Tech Passion</h4>
@@ -163,7 +301,7 @@
               </div>
             </div>
 
-            <div class="pillar-card">
+            <div class="pillar-card card-3d-hover">
               <div class="pillar-number">02</div>
               <div class="pillar-content">
                 <h4>Entrepreneurial Mindset</h4>
@@ -171,7 +309,7 @@
               </div>
             </div>
 
-            <div class="pillar-card">
+            <div class="pillar-card card-3d-hover">
               <div class="pillar-number">03</div>
               <div class="pillar-content">
                 <h4>Social Impact &amp; Value Creation</h4>
@@ -196,10 +334,10 @@
         <div class="skills-grid">
           
           <!-- Category 1: Technical Interests -->
-          <div class="skill-category-card">
+          <div class="skill-category-card card-3d-hover">
             <div class="category-header">
-              <div class="category-icon icon-cyan">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              <div class="category-icon igiton-cyan">
+z                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
               </div>
               <div>
                 <h3>Technical &amp; AI Stack</h3>
@@ -235,7 +373,7 @@
           </div>
 
           <!-- Category 2: Business & Personal Skills -->
-          <div class="skill-category-card highlight-card">
+          <div class="skill-category-card highlight-card card-3d-hover">
             <div class="category-header">
               <div class="category-icon icon-purple">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
@@ -278,7 +416,7 @@
           </div>
 
           <!-- Category 3: Tools & Environment -->
-          <div class="skill-category-card">
+          <div class="skill-category-card card-3d-hover">
             <div class="category-header">
               <div class="category-icon icon-blue">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
@@ -321,11 +459,12 @@
         <div class="projects-grid">
           
           <!-- Project 1: RaktSetu -->
-          <article class="project-card">
+          <article class="project-card card-3d-hover neon-border-active">
             <div class="project-image-box">
               <img src="https://images.openai.com/static-rsc-4/6xz9RJB-y-gw_uUZvv1-b6B6vavs8spKFHbWlE2hsHldCwQ_ru3VfaHgrnWleM7ykAveKy2qFD3NsV1FiVzTz_We3ejadO5S0-ui4KJWxLTP8C6QOdpsXyZsynspyBns_08Ln-a_4Rb-FFivslNCid_mdVjUO-QooOW5cLVwj70?purpose=inline" alt="RaktSetu Emergency Blood Availability Platform" class="project-img" loading="lazy">
               <div class="project-overlay"></div>
               <span class="project-badge badge-health">Healthcare Tech</span>
+              <div class="laser-scanner"></div>
             </div>
             <div class="project-body">
               <div class="project-meta">
@@ -345,11 +484,12 @@
           </article>
 
           <!-- Project 2: Spend Money -->
-          <article class="project-card">
+          <article class="project-card card-3d-hover neon-border-active">
             <div class="project-image-box">
               <img src="https://images.openai.com/static-rsc-4/GcGVaDL7W6fu5BbRbVIgDDSOMz0z2Fs3ebRwcUAfLdZOhdI5BHHbyuFOBK0A37kJY6D-k4q9FbozU-W958gRVU9ufkryeJBt2z0kg0c_eWtfBp5QYxOd8HQrB7ppyebVCNbY5LWdwaaE5yFiM0DpxuthSJhCzzTPHCpm4MwupCs?purpose=inline" alt="Spend Money Personal Finance Management Dashboard" class="project-img" loading="lazy">
               <div class="project-overlay"></div>
               <span class="project-badge badge-fin">FinTech</span>
+              <div class="laser-scanner"></div>
             </div>
             <div class="project-body">
               <div class="project-meta">
@@ -369,11 +509,12 @@
           </article>
 
           <!-- Project 3: AI-Based Pothole Detection -->
-          <article class="project-card">
+          <article class="project-card card-3d-hover neon-border-active">
             <div class="project-image-box">
               <img src="https://images.openai.com/static-rsc-4/ZSUfYCf40o2fwYh0E9v30aAptjLpFcXHzWgyXv6ubFrYcvq4gsfZpLBf_wHkagOYjIGZVLjtHst3yzHQRUg-cU68R8mGfpQfIGEgPo3pUKV0dW4jfonc0PUUOiYgXdNgAUX_AnKCYiZkl9miA8wAVfv2Qb16tfF1SxixEuaifvU?purpose=inline" alt="AI-Based Pothole Detection and Road Survey System" class="project-img" loading="lazy">
               <div class="project-overlay"></div>
               <span class="project-badge badge-ai">AI &amp; Vision</span>
+              <div class="laser-scanner"></div>
             </div>
             <div class="project-body">
               <div class="project-meta">
@@ -406,7 +547,7 @@
         </div>
 
         <div class="education-card-wrapper">
-          <div class="education-card">
+          <div class="education-card card-3d-hover">
             <div class="edu-icon-badge">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
             </div>
@@ -462,7 +603,7 @@
 
         <div class="contact-grid">
           
-          <div class="contact-info-panel">
+          <div class="contact-info-panel card-3d-hover">
             <h3>Connect with Me</h3>
             <p>I am keen on collaborating with fellow developers, mentors, investors, and visionaries passionate about building game-changing solutions.</p>
 
@@ -525,7 +666,7 @@
           </div>
 
           <!-- Pure CSS Contact Form -->
-          <div class="contact-form-panel">
+          <div class="contact-form-panel card-3d-hover">
             <h3>Send a Message</h3>
             <form class="contact-form" action="#" method="POST" onsubmit="return false;">
               <div class="form-group">
@@ -548,8 +689,8 @@
                 <textarea id="message" name="message" rows="4" placeholder="Let's build something impactful together..." required></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary btn-block">
-                <span>Send Message</span>
+              <button type="submit" class="btn btn-primary btn-block btn-glow-sweep">
+                <span class="btn-text">Send Message</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
               </button>
             </form>
@@ -580,11 +721,10 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 Ritik Yadav. Crafted with pure HTML &amp; CSS.</p>
+        <p>&copy; 2026 Ritik Yadav. Crafted with pure HTML &amp; CSS with 3D Cyber Animations.</p>
       </div>
     </div>
   </footer>
 
 </body>
 </html>
-
