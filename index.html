@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ritik Yadav | AI Student & Aspiring Entrepreneur</title>
+  <meta name="description" content="Portfolio of Ritik Yadav - B.Tech CSE (AI) Student, Aspiring Entrepreneur, and Tech & Business Enthusiast.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Background Glow Gradients -->
+  <div class="glow-orb orb-1" aria-hidden="true"></div>
+  <div class="glow-orb orb-2" aria-hidden="true"></div>
+  <div class="glow-orb orb-3" aria-hidden="true"></div>
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        <span class="logo-badge">RY</span>
+        <span class="logo-text">Ritik<span class="highlight">.</span>Yadav</span>
+      </a>
+
+      <!-- Pure CSS Mobile Menu Checkbox Toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-sm nav-cta">Let's Connect</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-pulse"></span>
+            <span>B.Tech CSE (AI) · Open to Innovation &amp; Startups</span>
+          </div>
+
+          <h1 class="hero-title">
+            Architecting <span class="gradient-text">AI Solutions</span> &amp; Building the <span class="gradient-text-alt">Future</span>.
+          </h1>
+
+          <p class="hero-subtitle">
+            Hi, I'm <strong class="text-white">Ritik Yadav</strong> — a Computer Science student specializing in Artificial Intelligence with an entrepreneurial spark. Driven to turn ambitious ideas into impactful, value-driven ventures.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Featured Projects</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            <a href="#about" class="btn btn-glass">
+              <span>My Vision &amp; Story</span>
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-value">CSE (AI)</span>
+              <span class="metric-label">Specialization</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-value">3+</span>
+              <span class="metric-label">Innovation Concepts</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-value">Tech + Biz</span>
+              <span class="metric-label">Dual Mindset</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card-wrapper">
+            <div class="avatar-ring-outer"></div>
+            <div class="avatar-ring-inner"></div>
+            <div class="visual-card">
+              <div class="avatar-box">
+                <span class="avatar-initials">RY</span>
+              </div>
+              <div class="card-caption">
+                <div class="badge-tag">Future Founder</div>
+                <h3>Ritik Yadav</h3>
+                <p>AI Engineer · Tech Explorer · Builder</p>
+              </div>
+              <div class="floating-badge badge-top">
+                <span class="badge-icon">⚡</span>
+                <div>
+                  <strong>Artificial Intelligence</strong>
+                  <span>ML &amp; Computer Vision</span>
+                </div>
+              </div>
+              <div class="floating-badge badge-bottom">
+                <span class="badge-icon">🚀</span>
+                <div>
+                  <strong>Entrepreneurship</strong>
+                  <span>High-Impact Startups</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by <span class="gradient-text">Curiosity</span>, Powered by <span class="gradient-text-alt">Purpose</span></h2>
+          <div class="section-separator"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-bio-card">
+            <div class="bio-icon-badge">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            </div>
+            <h3>Who I Am</h3>
+            <p>
+              I am a Computer Science and Engineering student specializing in <strong>Artificial Intelligence</strong>, with a strong interest in technology, entrepreneurship, and innovation. I enjoy exploring new ideas, building projects, and solving real-world problems through technology.
+            </p>
+            <p>
+              My goal is to become an <strong>entrepreneur</strong> and build innovative businesses that create meaningful value for society. I am passionate about learning new technologies, understanding business strategies, developing leadership skills, and continuously improving myself.
+            </p>
+            <div class="quote-box">
+              <p>"The best way to predict the future is to design and build it with technology and purposeful vision."</p>
+            </div>
+          </div>
+
+          <div class="about-pillars">
+            <div class="pillar-card">
+              <div class="pillar-number">01</div>
+              <div class="pillar-content">
+                <h4>AI &amp; Deep Tech Passion</h4>
+                <p>Exploring machine learning, computer vision, and intelligent automation to solve tangible systemic challenges.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-number">02</div>
+              <div class="pillar-content">
+                <h4>Entrepreneurial Mindset</h4>
+                <p>Bridging the gap between cutting-edge engineering and sustainable, scalable market-ready business models.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-number">03</div>
+              <div class="pillar-content">
+                <h4>Social Impact &amp; Value Creation</h4>
+                <p>Focusing on humanitarian health tech, public infrastructure, and personal wealth democratization.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Capabilities &amp; Mindset</span>
+          <h2 class="section-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+          <p class="section-description">A balanced synergy of technical engineering capabilities, business acumen, and modern developer tooling.</p>
+          <div class="section-separator"></div>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Technical Interests -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-cyan">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <h3>Technical &amp; AI Stack</h3>
+                <p>Core programming &amp; intelligence</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-pill">
+                <span class="pill-dot blue-dot"></span>
+                <span>Python Programming</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot purple-dot"></span>
+                <span>Artificial Intelligence</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot cyan-dot"></span>
+                <span>Machine Learning</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot blue-dot"></span>
+                <span>Web Development</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot purple-dot"></span>
+                <span>Problem Solving</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot cyan-dot"></span>
+                <span>Computer Science Fundamentals</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Business & Personal Skills -->
+          <div class="skill-category-card highlight-card">
+            <div class="category-header">
+              <div class="category-icon icon-purple">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+              </div>
+              <div>
+                <h3>Business &amp; Leadership</h3>
+                <p>Strategy, innovation &amp; execution</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-pill">
+                <span class="pill-dot purple-dot"></span>
+                <span>Entrepreneurship</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot blue-dot"></span>
+                <span>Startup Research</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot cyan-dot"></span>
+                <span>Business Strategy</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot purple-dot"></span>
+                <span>Creative Thinking</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot blue-dot"></span>
+                <span>Leadership</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot cyan-dot"></span>
+                <span>Communication</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot purple-dot"></span>
+                <span>Team Building</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Tools & Environment -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-blue">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <div>
+                <h3>Tools &amp; Workflow</h3>
+                <p>Modern development environment</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-pill">
+                <span class="pill-dot cyan-dot"></span>
+                <span>Git &amp; GitHub</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot blue-dot"></span>
+                <span>VS Code</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot purple-dot"></span>
+                <span>Antigravity IDE</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Case Studies &amp; Ideas</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects &amp; Concepts</span></h2>
+          <p class="section-description">Practical applications tackling real-world problems in healthcare, finance, and smart infrastructure.</p>
+          <div class="section-separator"></div>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: RaktSetu -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="https://images.openai.com/static-rsc-4/6xz9RJB-y-gw_uUZvv1-b6B6vavs8spKFHbWlE2hsHldCwQ_ru3VfaHgrnWleM7ykAveKy2qFD3NsV1FiVzTz_We3ejadO5S0-ui4KJWxLTP8C6QOdpsXyZsynspyBns_08Ln-a_4Rb-FFivslNCid_mdVjUO-QooOW5cLVwj70?purpose=inline" alt="RaktSetu Emergency Blood Availability Platform" class="project-img" loading="lazy">
+              <div class="project-overlay"></div>
+              <span class="project-badge badge-health">Healthcare Tech</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="focus-label">Focus:</span> Healthcare · Web Dev · Social Impact
+              </div>
+              <h3 class="project-title">RaktSetu – Emergency Blood Availability Platform</h3>
+              <p class="project-desc">
+                A critical healthcare platform concept engineered to solve the acute coordination problem in medical crises by helping families locate live blood stock nearby, while connecting verified donors, emergency blood banks, and hospitals seamlessly.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Web Development</span>
+                <span class="tag">Healthcare Tech</span>
+                <span class="tag">Social Impact</span>
+                <span class="tag">Donor Network</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Spend Money -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="https://images.openai.com/static-rsc-4/GcGVaDL7W6fu5BbRbVIgDDSOMz0z2Fs3ebRwcUAfLdZOhdI5BHHbyuFOBK0A37kJY6D-k4q9FbozU-W958gRVU9ufkryeJBt2z0kg0c_eWtfBp5QYxOd8HQrB7ppyebVCNbY5LWdwaaE5yFiM0DpxuthSJhCzzTPHCpm4MwupCs?purpose=inline" alt="Spend Money Personal Finance Management Dashboard" class="project-img" loading="lazy">
+              <div class="project-overlay"></div>
+              <span class="project-badge badge-fin">FinTech</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="focus-label">Focus:</span> FinTech · Dashboard Design · Analytics
+              </div>
+              <h3 class="project-title">Spend Money – Personal Finance Management</h3>
+              <p class="project-desc">
+                An intuitive personal financial wellness platform concept that provides deep visibility into cash inflows, categorizes expenditures, forecasts savings, and sets adaptive budgeting limits to help users cultivate financial discipline.
+              </p>
+              <div class="project-tags">
+                <span class="tag">FinTech</span>
+                <span class="tag">Dashboard Design</span>
+                <span class="tag">Expense Tracking</span>
+                <span class="tag">Budget Automation</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: AI-Based Pothole Detection -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="https://images.openai.com/static-rsc-4/ZSUfYCf40o2fwYh0E9v30aAptjLpFcXHzWgyXv6ubFrYcvq4gsfZpLBf_wHkagOYjIGZVLjtHst3yzHQRUg-cU68R8mGfpQfIGEgPo3pUKV0dW4jfonc0PUUOiYgXdNgAUX_AnKCYiZkl9miA8wAVfv2Qb16tfF1SxixEuaifvU?purpose=inline" alt="AI-Based Pothole Detection and Road Survey System" class="project-img" loading="lazy">
+              <div class="project-overlay"></div>
+              <span class="project-badge badge-ai">AI &amp; Vision</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="focus-label">Focus:</span> Artificial Intelligence · Computer Vision · Road Safety
+              </div>
+              <h3 class="project-title">AI-Based Pothole Detection System</h3>
+              <p class="project-desc">
+                An intelligent civic safety concept leveraging computer vision models and GPS geolocation telemetry to automatically identify road distress, assess crater severity, and dispatch geo-tagged telemetry to municipal authorities.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Artificial Intelligence</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">Python</span>
+                <span class="tag">Civic Tech</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Academics -->
+    <section id="education" class="education-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Academic Foundation</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Learnings</span></h2>
+          <div class="section-separator"></div>
+        </div>
+
+        <div class="education-card-wrapper">
+          <div class="education-card">
+            <div class="edu-icon-badge">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <div class="edu-content">
+              <div class="edu-header">
+                <div>
+                  <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+                  <h4 class="edu-branch">Computer Science and Engineering</h4>
+                </div>
+                <span class="edu-status-badge">In Progress</span>
+              </div>
+              
+              <div class="edu-specialization">
+                <span class="spec-label">Specialization:</span>
+                <span class="spec-value">Artificial Intelligence (AI)</span>
+              </div>
+
+              <div class="edu-details-grid">
+                <div class="edu-detail-item">
+                  <span class="detail-label">Institution:</span>
+                  <span class="detail-value text-muted">[College / University - To be added]</span>
+                </div>
+                <div class="edu-detail-item">
+                  <span class="detail-label">Expected Graduation:</span>
+                  <span class="detail-value text-muted">[Year - To be added]</span>
+                </div>
+              </div>
+
+              <div class="edu-highlights">
+                <h5>Key Academic Focus Areas:</h5>
+                <ul class="highlights-list">
+                  <li>Machine Learning Algorithms &amp; Neural Computation</li>
+                  <li>Data Structures, Algorithms &amp; Computer Science Fundamentals</li>
+                  <li>Applied Software Engineering &amp; System Prototyping</li>
+                  <li>Technology Commercialization &amp; Entrepreneurship Foundations</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Socials -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Build Something <span class="gradient-text">Exceptional</span></h2>
+          <p class="section-description">Whether you want to discuss innovative startup concepts, AI research, collaborations, or simply talk tech—my inbox is always open.</p>
+          <div class="section-separator"></div>
+        </div>
+
+        <div class="contact-grid">
+          
+          <div class="contact-info-panel">
+            <h3>Connect with Me</h3>
+            <p>I am keen on collaborating with fellow developers, mentors, investors, and visionaries passionate about building game-changing solutions.</p>
+
+            <div class="social-links-list">
+              <!-- Email -->
+              <a href="mailto:your-email@example.com" class="social-item">
+                <div class="social-icon mail-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="social-details">
+                  <span class="social-name">Email</span>
+                  <span class="social-handle">[email@example.com - To be added]</span>
+                </div>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="#" class="social-item" target="_blank" rel="noopener noreferrer">
+                <div class="social-icon linkedin-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div class="social-details">
+                  <span class="social-name">LinkedIn</span>
+                  <span class="social-handle">linkedin.com/in/[ritik-yadav]</span>
+                </div>
+              </a>
+
+              <!-- GitHub -->
+              <a href="#" class="social-item" target="_blank" rel="noopener noreferrer">
+                <div class="social-icon github-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </div>
+                <div class="social-details">
+                  <span class="social-name">GitHub</span>
+                  <span class="social-handle">github.com/[ritik-yadav]</span>
+                </div>
+              </a>
+
+              <!-- Twitter / X -->
+              <a href="#" class="social-item" target="_blank" rel="noopener noreferrer">
+                <div class="social-icon x-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+                </div>
+                <div class="social-details">
+                  <span class="social-name">X (Twitter)</span>
+                  <span class="social-handle">x.com/[ritik-yadav]</span>
+                </div>
+              </a>
+
+              <!-- Instagram -->
+              <a href="#" class="social-item" target="_blank" rel="noopener noreferrer">
+                <div class="social-icon instagram-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </div>
+                <div class="social-details">
+                  <span class="social-name">Instagram</span>
+                  <span class="social-handle">instagram.com/[ritik-yadav]</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Pure CSS Contact Form -->
+          <div class="contact-form-panel">
+            <h3>Send a Message</h3>
+            <form class="contact-form" action="#" method="POST" onsubmit="return false;">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject / Inquiry</label>
+                <input type="text" id="subject" name="subject" placeholder="Startup Collaboration / Tech Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Let's build something impactful together..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#home" class="logo">
+          <span class="logo-badge">RY</span>
+          <span class="logo-text">Ritik<span class="highlight">.</span>Yadav</span>
+        </a>
+        <p>B.Tech CSE (AI) Student · Aspiring Tech Entrepreneur · Solving Real-World Problems.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ritik Yadav. Crafted with pure HTML &amp; CSS.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
